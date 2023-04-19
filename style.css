@@ -17,7 +17,7 @@ body {
 }
 
 .container-center {
-    max-width: 200px;
+    max-width: 350px;
     margin: auto;
 
 }
@@ -143,4 +143,9 @@ hr {
     text-align: center;
     padding-top: 1.5rem;
     color: white;
+}
+
+/* Margin */
+.Margin{
+    margin-top: 2rem;
 }
