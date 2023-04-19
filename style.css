@@ -75,6 +75,7 @@ hr {
     background-color: var(--primary-colour);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    margin-bottom: 2rem;
 }
 
 .navigation-list {
@@ -123,15 +124,23 @@ hr {
 }
 
 /* footer */
-
+.footer{
+    background-color: var(--primary-colour);
+    border-top-right-radius: 1rem;
+}
 .footer ul{
     text-align: center;
     background-color: var(--primary-colour);
     padding: 4rem;
-    border-top-right-radius: 1rem;
+
 }
 
 .footer a{
     color: white;
 
+}
+.footer h2{
+    text-align: center;
+    padding-top: 1.5rem;
+    color: white;
 }
