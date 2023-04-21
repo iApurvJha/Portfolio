@@ -111,6 +111,9 @@ hr {
 .section{
     padding: 1rem;
 }
+.section_margin{
+    margin: 5rem;
+}
 .section h2{
     text-align: center;
     padding: 1rem;
@@ -121,6 +124,9 @@ hr {
 } */
 .section-with-off-white-background{
     background-color: var(--off-white);
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 1rem;
 }
 
 /* footer */
@@ -131,7 +137,7 @@ hr {
 .footer ul{
     text-align: center;
     background-color: var(--primary-colour);
-    padding: 4rem;
+    padding: 2rem;
 
 }
 
@@ -150,8 +156,25 @@ hr {
     margin-top: 2rem;
 }
 .Margin_footer{
-    margin-top: 21rem;
+    margin-top: 7rem;
 }
 .Margin_bottom{
     margin-bottom: 7rem;
+}
+/* header */
+
+.header{
+    max-width: 350px;
+    margin: auto;
+    /* padding: 2rem; */
+}
+/* navigation*/
+
+.nav_margin{
+    margin-bottom: 9rem;
+}
+/* horizontal_line */
+hr{
+    max-width: 1200px;
+    margin: auto;
 }
